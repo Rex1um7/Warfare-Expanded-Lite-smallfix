@@ -18,14 +18,6 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable"]
-	},
-	{
 		"name": "Medic",
 		"unitType": "Civilian",
 		"movement": 2,
