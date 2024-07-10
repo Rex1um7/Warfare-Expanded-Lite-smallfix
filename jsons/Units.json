@@ -6,7 +6,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-			"Can build [Land] improvements on tiles", 
+            "Can build [Land] improvements on tiles", 
 			"[+1] Movement <after discovering [Combustion]>"
 		],
 		"cost": 70
@@ -17,10 +17,10 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-			"Founds a new city", 
+            "Founds a new city", 
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"]
-		,
+			"Requires at least [2] population"
+		],
 		"hurryCostModifier": 20
 	},
 	{
@@ -38,7 +38,10 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"uniques": ["All adjacent units heal [+5] HP when healing","Can be purchased with [Faith] [in all cities]"],
+		"uniques": [
+            "All adjacent units heal [+5] HP when healing",
+			"Can be purchased with [Faith] [in all cities]"
+		],
 		"cost": 80,
 		"upgradesTo": "Medic",
 		"obsoleteTech": "Biology"
@@ -47,7 +50,10 @@
 		"name": "Supply Truck",
 		"unitType": "Civilian",
 		"movement": 4,
-		"uniques": ["All adjacent units heal [+10] HP when healing", "Transfer Movement to [Military]"],
+		"uniques": [
+            "All adjacent units heal [+10] HP when healing", 
+			"Transfer Movement to [Military]"
+		],
 		"cost": 450,
 		"requiredTech": "Pharmaceuticals"
 	},
@@ -57,7 +63,13 @@
 		"movement": 2,
 		"cost": 400,
 		"requiredTech": "Military Science",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Military Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"]
+		"uniques": [
+            "[+10]% Strength bonus for [Military] units within [1] tiles", 
+			"Uncapturable", 
+			"Only available <if [Military Academy] is constructed>", 
+			"[+1] Movement <after discovering [Combined Arms]>", 
+			"[+1] Movement <after discovering [Mobile Tactics]>"
+		]
 	},
 	{
 		"name": "Airfield Ground Unit",
@@ -68,7 +80,12 @@
 		"cost": 600,
 		"requiredResource": "Oil",
 		"requiredTech": "Radar",
-		"uniques": ["[60]% chance to intercept air attacks","Can carry [0] [Aircraft] units", "Can build [Airfield] improvements on tiles", "Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"],
+		"uniques": [
+            "[60]% chance to intercept air attacks",
+			"Can carry [0] [Aircraft] units", 
+			"Can build [Airfield] improvements on tiles", 
+			"Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"
+		],
 		"civilopediaText": [
 			{
 				"text": "Remarks from mod creator: This is not a moving aircraft carrier on land, but it builds Airfield tiles, and allows Airfield tiles to be loaded with new air units. Moving this unit away from airfield will leave the aircraft onto the airfield tile."
@@ -79,10 +96,16 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>","Can be earned through combat",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can be earned through combat",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"],
+	        "Great Person - [War]", 
+            "Unbuildable", 
+            "Uncapturable", 
+            "[+1] Movement <after discovering [Combined Arms]>", 
+            "[+1] Movement <after discovering [Mobile Tactics]>"
+        ],
 		"movement": 2
 	},
 		{
@@ -90,8 +113,13 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great Merchant",
-		"uniques": ["Can instantly construct a [Customs house] improvement <by consuming this unit>","[2] free [Mongol Raider] units appear <by consuming this unit>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"uniques": [
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "[2] free [Mongol Raider] units appear <by consuming this unit>",
+			"Great Person - [Gold]", 
+            //"Uncapturable",
+            "Unbuildable"
+        ],
 		"movement": 2
 	},
 	{
@@ -106,7 +134,15 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Chivalry",
 		"hurryCostModifier": 40,
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [10]% of the damage done to [All] units as [Gold]","Limited to [4] per Civilization","Only available <in cities with a [Palace]>"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus", 
+            "Ignores Zone of Control",
+            "No movement cost to pillage",
+            "Earn [10]% of the damage done to [All] units as [Gold]",
+            "Limited to [4] per Civilization",
+            "Only available <in cities with a [Palace]>"
+        ],
 		"attackSound": "horse"
 	},
 	{
@@ -121,7 +157,14 @@
 		"upgradesTo": "Dragoon",
 		"requiredBuilding": "Palace",
 		"hurryCostModifier": 40,
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [20]% of the damage done to [All] units as [Gold]","Limited to [4] per Civilization","Only available <in cities with a [Palace]>"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus", 
+            "Ignores Zone of Control",
+            "No movement cost to pillage",
+            "Earn [20]% of the damage done to [All] units as [Gold]",
+            "Limited to [4] per Civilization","Only available <in cities with a [Palace]>"
+        ],
 		"attackSound": "horse"
 	},
 
@@ -134,7 +177,10 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Infantry"],
+		"uniques" : [
+            "May upgrade to [Spearman] through ruins-like effects", 
+            "Infantry"
+        ],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -222,7 +268,11 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Infantry"],
+		"uniques": [
+            "Can build [Road] improvements on tiles", 
+            "Can build [Fort] improvements on tiles", 
+            "Infantry"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -335,7 +385,11 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Iron",
-		"uniques": ["Infantry","Earn [50]% of killed [All] unit's [Cost] as [Faith]","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"],
+		"uniques": [
+            "Infantry",
+            "Earn [50]% of killed [All] unit's [Cost] as [Faith]",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -407,19 +461,22 @@
 		"attackSound": "shot"
 	},
  	{
-                "name": "Redcoat",
-                "unitType": "Gunpowder",
+        "name": "Redcoat",
+        "unitType": "Gunpowder",
 		"replaces": "Rifleman",
 		"uniqueTo": "England",
-                "movement": 2,
-                "strength": 34,
-                "cost": 225,
-                "requiredTech": "Rifling",
-                "obsoleteTech": "Replaceable Parts",
-                "upgradesTo": "Great War Infantry",
-                "promotions": ["Amphibious"],
-                "uniques": ["Infantry", "[+25]% Strength <on foreign continents>"],
-                "attackSound": "shot"
+        "movement": 2,
+        "strength": 34,
+        "cost": 225,
+        "requiredTech": "Rifling",
+        "obsoleteTech": "Replaceable Parts",
+        "upgradesTo": "Great War Infantry",
+        "promotions": ["Amphibious"],
+        "uniques": [
+            "Infantry", 
+            "[+25]% Strength <on foreign continents>"
+        ],
+        "attackSound": "shot"
         },
 	{
 		"name": "Norwegian Ski Infantry",
@@ -553,7 +610,10 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+15]% Strength <vs [Mounted] units>"],
+		"uniques": [
+            "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", 
+            "[+15]% Strength <vs [Mounted] units>"
+        ],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
@@ -568,7 +628,10 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "[+30]% Strength <vs [Mounted] units>", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "metalhit"
 	},
 	{
@@ -580,7 +643,11 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+35]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "[+35]% Strength <vs [Mounted] units>", 
+            //"Never appears as a Barbarian unit", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "metalhit"
 	},
 	{
@@ -623,7 +690,10 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[+1] Sight"],
+		"uniques": [
+            "[+35]% Strength <vs [Mounted] units>", 
+            "[+1] Sight"
+        ],
 		"attackSound": "metalhit"
 	},
 	{
@@ -633,7 +703,10 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "[+50]% Strength <vs [Mounted] units>", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit" 
@@ -647,7 +720,11 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "[+50]% Strength <vs [Mounted] units>", 
+            "Can move immediately once bought", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -662,7 +739,10 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "[+50]% Strength <vs [Mounted] units>", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "shot"
 	},
 	{
@@ -676,7 +756,10 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "[+50]% Strength <vs [Mounted] units>", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "shot"
 	},
 	{
@@ -688,7 +771,11 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Ballistics",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "[+50]% Strength <vs [Mounted] units>", 
+            //"Never appears as a Barbarian unit", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "shot"
 	},
 	{
@@ -703,7 +790,7 @@
 		"promotions": ["Home Sweet Home","Besiege"],
 		"obsoleteTech": "Ballistics",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", ],
 		"attackSound": "shot"
 	},
 	{
@@ -715,7 +802,11 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "[+50]% Strength <vs [Armored] units>", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "tankshot"
 	},
 	{
@@ -726,7 +817,10 @@
 		"cost": 375,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Modern AT Missile",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "[+50]% Strength <vs [Armored] units>", 
+            "[-15]% Strength <vs [Infantry] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -736,11 +830,15 @@
 		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "[+50]% Strength <vs [Armored] units>", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "missile"
 	},
 
-	//rangedA
+	//RangedA(Support)
 	{
 		"name": "Stoneslinger",
 		"unitType": "Archery",
@@ -874,7 +972,7 @@
 		"attackSound": "missile"
 	},
 
-	//rangedB
+	//rangedB(Main)
 	{
 		"name": "Archer",
 		"unitType": "Archery",
@@ -1003,7 +1101,10 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Field Cannon",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -1016,7 +1117,10 @@
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Field Gun",
 		"obsoleteTech": "Ballistics",
-		"uniques": ["Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -1042,7 +1146,10 @@
 		"requiredTech": "Combined Arms",
 		"obsoleteTech": "Robotics",
 		"upgradesTo": "Field Artillery",
-		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "[-10]% Strength <vs [Infantry] units>"
+        ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -1054,7 +1161,10 @@
 		"rangedStrength": 90,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "[-10]% Strength <vs [Infantry] units>"
+        ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -1066,7 +1176,10 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "May upgrade to [Spearman] through ruins-like effects"
+        ],
 		"promotions": ["Ignore terrain cost"],
 		"upgradesTo": "Explorer",
 		"obsoleteTech": "Compass",
@@ -1078,7 +1191,11 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit"
+            "Can see over obstacles", 
+            "Normal vision when embarked"
+        ],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
@@ -1093,7 +1210,12 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": [
+            "Never appears as a Barbarian unit",
+            "Can see over obstacles", 
+            "Normal vision when embarked", 
+            "Can move after attacking"
+        ],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
@@ -1108,7 +1230,13 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "Can see over obstacles", 
+            "Normal vision when embarked", 
+            "May Paradrop up to [7] tiles from inside friendly territory", 
+            "Can move after attacking"
+        ],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
@@ -1121,7 +1249,14 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 15,
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Spearman] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-2] Movement <in [Foreign Land] tiles>"
+        ],
 		"upgradesTo": "Citizen Militia",
 		"obsoleteTech": "Mathematics",
 		"attackSound": "nonmetalhit"
@@ -1132,7 +1267,14 @@
 		"movement": 3,
 		"strength": 8,
 		"cost": 20,
-		"uniques": ["May upgrade to [Heavy Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Heavy Infantry] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-2] Movement <in [Foreign Land] tiles>"
+        ],
 		"upgradesTo": "Armed Peasants",
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Civil Service",
@@ -1144,7 +1286,14 @@
 		"movement": 3,
 		"strength": 12,
 		"cost": 30,
-		"uniques": ["May upgrade to [Pikeman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Pikeman] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-2] Movement <in [Foreign Land] tiles>"
+        ],
 		"upgradesTo": "Militiaman",
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Printing Press",
@@ -1156,7 +1305,14 @@
 		"movement": 3,
 		"strength": 15,
 		"cost": 40,
-		"uniques": ["May upgrade to [Musketman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Musketman] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-2] Movement <in [Foreign Land] tiles>"
+        ],
 		"upgradesTo": "Volunteers",
 		"requiredTech": "Printing Press",
 		"obsoleteTech": "Industrialization",
@@ -1173,7 +1329,15 @@
 		"requiredTech": "Printing Press",
 		"upgradesTo": "Volunteers",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Ignores terrain cost", "May upgrade to [Musketman] through ruins-like effects", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>", "Can move immediately once bought"],
+		"uniques": [
+            "Ignores terrain cost", 
+            "May upgrade to [Musketman] through ruins-like effects", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-2] Movement <in [Foreign Land] tiles>", 
+            "Can move immediately once bought"
+        ],
 		"promotions": ["[Minuteman] ability"],
 		"attackSound": "shot"
 	},
@@ -1183,7 +1347,14 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 50,
-		"uniques": ["May upgrade to [Rifleman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Rifleman] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-2] Movement <in [Foreign Land] tiles>"
+        ],
 		"upgradesTo": "Draftee",
 		"requiredTech": "Industrialization",
 		"obsoleteTech": "Radio",
@@ -1195,7 +1366,14 @@
 		"movement": 3,
 		"strength": 35,
 		"cost": 70,
-		"uniques": ["May upgrade to [Great War Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Great War Infantry] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-2] Movement <in [Foreign Land] tiles>"
+        ],
 		"upgradesTo": "Conscripts",
 		"requiredTech": "Radio",
 		"obsoleteTech": "Pharmaceuticals",
@@ -1207,7 +1385,14 @@
 		"movement": 3,
 		"strength": 45,
 		"cost": 100,
-		"uniques": ["May upgrade to [Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Infantry] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-25]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-1] Movement <in [Foreign Land] tiles>"
+        ],
 		"upgradesTo": "Irregulars",
 		"requiredTech": "Pharmaceuticals",
 		"obsoleteTech": "Telecommunications",
@@ -1219,7 +1404,14 @@
 		"movement": 3,
 		"strength": 55,
 		"cost": 100,
-		"uniques": ["May upgrade to [Modern Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
+		"uniques": [
+            "May upgrade to [Modern Infantry] through ruins-like effects", 
+            "Never appears as a Barbarian unit", 
+            "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
+            "[-25]% Strength <when fighting in [Foreign Land] tiles>", 
+            "[-75]% maintenance costs", 
+            "[-1] Movement <in [Foreign Land] tiles>"
+        ],
 		"requiredTech": "Telecommunications",
 		"attackSound": "shot"
 	},
@@ -1273,8 +1465,15 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-50]% Strength <when defending>",
-		"Can only attack [City] units", "Never appears as a Barbarian unit", "[-1] Sight", "Ignores Zone of Control"],
+		"uniques": [
+            "[+100]% Strength <vs cities> <when attacking>", 
+            "No defensive terrain bonus", 
+            "[-50]% Strength <when defending>",
+		    "Can only attack [City] units", 
+            "Never appears as a Barbarian unit", 
+            "[-1] Sight", 
+            "Ignores Zone of Control"
+        ],
 		"attackSound": "throw"
 	},
 	{
@@ -1288,7 +1487,14 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight", "Ignores Zone of Control"],
+		"uniques": [
+            "[+300]% Strength <vs cities> <when attacking>", 
+            "No defensive terrain bonus", 
+            "[-33]% Strength <when defending>", 
+            "Can only attack [City] units", 
+            "[-1] Sight", 
+            "Ignores Zone of Control"
+        ],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
@@ -1301,7 +1507,13 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Grenadier",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
+		"uniques": [
+            "[+100]% Strength <vs cities>", 
+            "No defensive terrain bonus", 
+            "Can only attack [City] units", 
+            "Never appears as a Barbarian unit", 
+            "Ignores Zone of Control"
+        ],
 		"attackSound": "throw"
 	},
 	{
@@ -1313,7 +1525,10 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Demolition Sapper",
 		"obsoleteTech": "Military Science",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+100]% Strength <vs cities>", 
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -1325,7 +1540,10 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Flamethrower",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+100]% Strength <vs cities>", 
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -1337,7 +1555,10 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Commando",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+100]% Strength <vs cities>", 
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "shot"
 	},
 	{
@@ -1349,7 +1570,11 @@
 		"requiredTech": "Pharmaceuticals",
 		"obsoleteTech": "Telecommunications",
 		"upgradesTo": "Modern Commando",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+100]% Strength <vs cities>", 
+            "All tiles cost 1 movement", 
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "shot"
 	},
 	{
@@ -1359,7 +1584,12 @@
 		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+100]% Strength <vs cities>", 
+            "All tiles cost 1 movement", 
+            "May Paradrop up to [7] tiles from inside friendly territory", 
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "shot"
 	},
 
@@ -1374,8 +1604,12 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+200]% Strength <vs cities> <when attacking>", 
+            "No defensive terrain bonus",
+			"Must set up to ranged attack", 
+            "Never appears as a Barbarian unit"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -1391,8 +1625,11 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack"],
+		"uniques": [
+            "[+200]% Strength <vs cities> <when attacking>", 
+            "No defensive terrain bonus",
+			"Must set up to ranged attack"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -1406,7 +1643,12 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Bombard Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "throw"
 	},
 	{
@@ -1421,7 +1663,10 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Bombard Cannon",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": [
+            "No defensive terrain bonus",
+            "Must set up to ranged attack"
+        ],
 		"attackSound": "throw"
 	},
 	{
@@ -1434,7 +1679,12 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -1449,7 +1699,12 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "Never appears as a Barbarian unit"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -1464,7 +1719,12 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+75]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[+33]% Strength <vs [Melee] units>", "Can move after attacking"],
+		"uniques": [
+            "[+75]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "[+33]% Strength <vs [Melee] units>", 
+            "Can move after attacking"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -1478,8 +1738,12 @@
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Heavy Howitzer",
 		"obsoleteTech": "Ballistics",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+			"Must set up to ranged attack"
+        ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -1493,8 +1757,12 @@
 		"cost": 375,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+			"Must set up to ranged attack"
+        ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -1508,7 +1776,11 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus"
+        ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -1522,7 +1794,13 @@
 		"cost": 500,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Must set up to ranged attack", "Can carry [1] [Ballistic] units", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus", 
+            "Must set up to ranged attack", 
+            "Can carry [1] [Ballistic] units"
+        ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -1549,7 +1827,10 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"uniques": ["[80]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[80]% chance to intercept air attacks"
+        ],
 		"attackSound": "missile"
 	},
 
@@ -1562,7 +1843,13 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [2] [Aluminum]"],
+		"uniques": [
+            "[70]% chance to intercept air attacks", 
+            "No defensive terrain bonus", 
+            "Never appears as a Barbarian unit", 
+            "Only intercepts missiles", 
+            "Consumes [2] [Aluminum]"
+        ],
 		"attackSound": "missile"
 	},
 
@@ -1574,7 +1861,10 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "May Paradrop up to [5] tiles from inside friendly territory"
+        ],
 		"attackSound": "shot",
 		"upgradesTo": "Modern Paratrooper"
 	},
@@ -1585,7 +1875,11 @@
 		"strength": 70,
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "May Paradrop up to [10] tiles from inside friendly territory", 
+            "Ignores terrain cost"
+        ],
 		"attackSound": "shot",
 	},
 
@@ -1600,7 +1894,12 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Courser",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "Ignores Zone of Control"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1617,7 +1916,12 @@
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals I"],
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
+		"uniques": [
+            "Can move after attacking", 
+            "No defensive terrain bonus", 
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "Ignores Zone of Control"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1631,7 +1935,12 @@
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Dragoon",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "Ignores Zone of Control"
+        ],
 		"attackSound": "horse"
 	},
 	{
@@ -1644,7 +1953,12 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "Ignores Zone of Control"
+        ],
 		"attackSound": "horse"
 	},
 	{
@@ -1659,8 +1973,12 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight", "Ignores Zone of Control"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight", "Ignores Zone of Control"
+        ],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
@@ -1673,7 +1991,13 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Armored Car",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "Ignores Zone of Control"
+        ],
 		"attackSound": "horse"
 	},
 	{
@@ -1687,7 +2011,12 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Armored Car",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "Ignores Zone of Control"
+        ],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
 	},
@@ -1701,7 +2030,12 @@
 		"upgradesTo": "Armored Infantry",
 		"obsoleteTech": "Combined Arms",
 		"requiredResource": "Oil",
-"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
+        "uniques": [
+            //"Never appears as a Barbarian unit",
+            "Can move after attacking", 
+            "No defensive terrain bonus", 
+            "Ignores Zone of Control"
+        ],
 		"attackSound": "Machine Gun"
 	},
 	{
@@ -1711,7 +2045,11 @@
 		"strength": 70,
 		"cost": 450,
 		"requiredTech": "Combined Arms",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "Can move after attacking", 
+            "Ignores Zone of Control"
+        ],
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"requiredResource": "Oil",
@@ -1725,7 +2063,11 @@
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
+		"uniques": [
+            "Never appears as a Barbarian unit",
+            "Can move after attacking", 
+            "Ignores Zone of Control"
+        ],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1733,12 +2075,18 @@
 		"unitType": "Gunpowder",
 		"uniqueTo": "Barbarians",
 		"movement": 4,
-		"strength": 40,
+		"strength": 45,
 		"range": 1,
-		"rangedStrength": 50,
+		"rangedStrength": 60,
 		"cost": 400,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking", "Heals [+15] damage if it kills a unit", "No defensive terrain bonus", "Ignores Zone of Control","Destroys tile improvements when attacking"],
+		"uniques": [
+            "Can move after attacking", 
+            "Heals [+15] damage if it kills a unit", 
+            "No defensive terrain bonus", 
+            "Ignores Zone of Control",
+            "Destroys tile improvements when attacking"
+        ],
 		"attackSound": "Machine Gun"
 	},
 
@@ -1753,7 +2101,13 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Armored Horseman",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "No defensive terrain bonus", 
+            "Rough terrain penalty", 
+            "[+10]% Strength <when attacking>", 
+            "[-33]% Strength <vs cities> <when attacking>"
+        ],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1765,7 +2119,15 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Steel",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "Can move after attacking", 
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "[+10]% Strength <when attacking>", 
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1780,8 +2142,12 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength <when attacking>"],
+		"uniques": [
+            "Can move after attacking", 
+            "No defensive terrain bonus",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+            "[+10]% Strength <when attacking>"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
@@ -1796,7 +2162,13 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"uniques": [
+            "Can move after attacking", 
+            "[-25]% Strength <vs cities> <when attacking>",
+            "[+10]% Strength <when attacking>", 
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]"
+        ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1811,7 +2183,14 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"],
+		"uniques": [
+            "Can move after attacking", 
+            "[-25]% Strength <vs cities> <when attacking>",
+            "[+10]% Strength <when attacking>", 
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"
+        ],
 		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -1825,7 +2204,15 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cuirasser",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "[+10]% Strength <when attacking>", 
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]"
+        ],
 		"attackSound": "horse"
 	},
 	{
@@ -1839,7 +2226,15 @@
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Cuirasser",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus", 
+            "Founds a new city <on foreign continents>", 
+            "[+2] Sight",
+            "[+10]% Strength <when attacking>", 
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]"
+        ],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
@@ -1856,7 +2251,13 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cuirasser",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[+10]% Strength <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Mounted] units>",
+            "[+10]% Strength <when attacking>", 
+            "[-33]% Strength <vs cities> <when attacking>"
+        ],
 		"attackSound": "elephant"
 	},
 	{
@@ -1868,7 +2269,15 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "[+10]% Strength <when attacking>", 
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]"
+        ],
 		"attackSound": "horse"
 	},
 	{
@@ -1880,7 +2289,14 @@
 		"strength": 27,
 		"cost": 200,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "[+10]% Strength <when attacking>", 
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]"
+        ],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Military Science",
@@ -1895,7 +2311,14 @@
 		"strength": 27,
 		"cost": 350,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry (Ranged)]"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]",
+            "Can transform to [Qing Banner Cavalry (Ranged)]"
+        ],
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
@@ -1910,7 +2333,15 @@
 		"range": 1,
 		"cost": 350,
 		"requiredTech": "Metallurgy",
-		"uniques": ["unbuildable","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry]"],
+		"uniques": [
+            "unbuildable",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Consumes [1] [Horses]", 
+            "Consumes [1] [Iron]",
+            "Can transform to [Qing Banner Cavalry]"
+        ],
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combustion",
 		"attackSound": "arrow"
@@ -1925,9 +2356,9 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+            //"Never appears as a Barbarian unit", 
 			"Can move after attacking",
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"Consumes [1] [Oil]", 
 			"Consumes [1] [Iron]"
 		],
@@ -1961,7 +2392,13 @@
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "[+15]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus", 
+            "Consumes [1] [Oil]", 
+            "Consumes [1] [Iron]", 
+            "[+15]% Strength <vs [Infantry] units> <when attacking>"
+        ],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
 	},
@@ -1975,7 +2412,8 @@
 		"cost": 250,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking",
+		"uniques": [
+            "Can move after attacking",
 			"No defensive terrain bonus", 
 			"Can move immediately once bought", 
 			"Consumes [1] [Oil]", 
@@ -1992,9 +2430,10 @@
 		"cost": 475,
 		"requiredTech": "Lasers",
 		"upgradesTo":"Giant Death Robot",
-		"uniques": ["Can move after attacking", 
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "Can move after attacking", 
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"Consumes [1] [Oil]", 
 			"Consumes [1] [Aluminum]", 
 			"[+15]% Strength <vs [Infantry] units> <when attacking>"
@@ -2008,9 +2447,10 @@
 		"strength": 150,
 		"cost": 550,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Can move after attacking", 
+		"uniques": [
+            //"Never appears as a Barbarian unit", 
+            "Can move after attacking", 
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"Consumes [1] [Uranium]", 
 			"Consumes [1] [Aluminum]", 
 			"[+15]% Strength <vs [Infantry] units> <when attacking>"
@@ -2031,9 +2471,9 @@
 		"upgradesTo": "Bow Rider",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
+            //"Never appears as a Barbarian unit", 
 			"No defensive terrain bonus", 
 			"Rough terrain penalty", 
-			//"Never appears as a Barbarian unit", 
 			"[-15]% Strength <vs [Infantry] units>"
 		],
 		"attackSound": "arrow"
@@ -2050,7 +2490,11 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Bow Rider",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "No defensive terrain bonus", 
+            "Rough terrain penalty", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "arrow"
 	},
 	{
@@ -2065,7 +2509,10 @@
 		"requiredTech": "Trapping",
 		"upgradesTo": "Bow Rider",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+            "No defensive terrain bonus", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"attackSound": "elephant"
 	},
 	{
@@ -2100,8 +2547,8 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"[-15]% Strength <vs [Infantry] units>"
 		],
 		"attackSound": "arrow"
@@ -2118,9 +2565,9 @@
 		"upgradesTo": "Horse Artillery",
 		"requiredResource": "Horses",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>", 
-			//"Never appears as a Barbarian unit", 
 			"[-15]% Strength <vs [Infantry] units>"
 		],
 		"attackSound": "horse"
@@ -2156,7 +2603,10 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Horse Artillery",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": ["Can move after attacking",
+            "No defensive terrain bonus", 
+            "[-15]% Strength <vs [Infantry] units>"
+        ],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
@@ -2174,9 +2624,9 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Self Propelled Gun",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"No defensive terrain bonus",
 			"[-20]% Strength <vs cities> <when attacking>", 
-			//"Never appears as a Barbarian unit", 
 			"[-15]% Strength <vs [Infantry] units>"
 		],
 		"attackSound": "cannon"
@@ -2192,8 +2642,8 @@
 		"upgradesTo": "Modern SPG",
 		"requiredResource": "Oil",
 		"uniques": [
+            //"Never appears as a Barbarian unit", 
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"[-15]% Strength <vs [Infantry] units>"
 		],
 		"attackSound": "artilllery"
@@ -2208,8 +2658,8 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
 		"uniques": [
+            //"Never appears as a Barbarian unit", 
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"[-10]% Strength <vs [Infantry] units>"
 		],
 		"promotions": ["Indirect Fire"],
@@ -2228,9 +2678,9 @@
 		"upgradesTo": "Lancer",
 		"requiredResource": "Horses",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>", 
-			//"Never appears as a Barbarian unit", 
 			"[+35]% Strength <vs [Mounted] units>"
 		],
 		"attackSound": "horse"
@@ -2247,7 +2697,11 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+40]% Strength <vs [Mounted] units>"],
+		"uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus", 
+            "[+40]% Strength <vs [Mounted] units>"
+        ],
 		"attackSound": "horse"
 	},
 	{
@@ -2259,9 +2713,9 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
+            //"Never appears as a Barbarian unit", 
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			//"Never appears as a Barbarian unit", 
 			"[+50]% Strength <vs [Mounted] units>"
 		],
 		"upgradesTo": "Anti-Tank Gun",
@@ -2278,7 +2732,11 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Mounted] units>"],
+		"uniques": [
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "[+50]% Strength <vs [Mounted] units>"
+        ],
 		"promotions": ["[Khillaychuki Cavalry] ability"],
 		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
@@ -2294,7 +2752,11 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Mounted] units>","Ignores Zone of Control"],
+		"uniques": [
+            "[-33]% Strength <vs cities> <when attacking>", 
+            "[+50]% Strength <vs [Mounted] units>",
+            "Ignores Zone of Control"
+        ],
 		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -2309,8 +2771,12 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight", "[+50]% Strength <vs [Mounted] units>"],
+		"uniques": [
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight", 
+            "[+50]% Strength <vs [Mounted] units>"
+        ],
 		"promotions": ["[Sipahi] ability"],
 		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
@@ -2326,8 +2792,8 @@
 		"upgradesTo": "Modern Tank Destroyer",
 		"requiredResource": "Oil",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"[+50]% Strength <vs [Armored] units>"
 		],
 		"attackSound": "tankshot"
@@ -2341,8 +2807,8 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
 		"uniques": [
+            //"Never appears as a Barbarian unit", 
 			"No defensive terrain bonus", 
-			//"Never appears as a Barbarian unit", 
 			"[+60]% Strength <vs [Armored] units>"
 		],
 		"attackSound": "tankshot"
@@ -2532,13 +2998,15 @@
 		"cost": 425,
 		"requiredTech": "Flight",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+30]% Strength <vs [Armored] units>", 
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[+30]% Strength <vs [Armored] units>", 
 			"No defensive terrain bonus", 
 			"Can move after attacking",
 			"All tiles cost 1 movement", 
 			"Ignores Zone of Control", 
 			"Unable to capture cities", 
-			//"Never appears as a Barbarian unit"
+			
 		],
 		"upgradesTo": "Helicopter Gunship",
 		"obsoleteTech": "Computers",
@@ -2553,13 +3021,14 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+30]% Strength <vs [Armored] units>",
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[+30]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus", 
 			"Can move after attacking",
 			"All tiles cost 1 movement", 
 			"Ignores Zone of Control", 
-			"Unable to capture cities", 
-			//"Never appears as a Barbarian unit"
+			"Unable to capture cities"
 		],
 		"attackSound": "machinegun"
 	},
@@ -2574,7 +3043,8 @@
 		"range": 8,
 		"cost": 150,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[-100]% maintenance costs", 
+		"uniques": [
+            "[-100]% maintenance costs", 
 			"Ballistic", 
 			"Destroys tile improvements when attacking"
 		],
@@ -2592,7 +3062,8 @@
 		"cost": 600,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"uniques": ["Destroys tile improvements when attacking", 
+		"uniques": [
+            "Destroys tile improvements when attacking", 
 			"Nuclear weapon of Strength [1]", 
 			"Only available <if [Manhattan Project] is constructed>", 
 			"Self-destructs when attacking",
@@ -2612,8 +3083,14 @@
 		"range": 12,
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Destroys tile improvements when attacking", "Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [2]", "Consumes [2] [Uranium]", "Ballistic"],
+		"uniques": [
+            "Destroys tile improvements when attacking", 
+            "Nuclear weapon of Strength [2]", 
+            "Only available <if [Manhattan Project] is constructed>",
+			"Blast radius [2]", 
+            "Consumes [2] [Uranium]", 
+            "Ballistic"
+        ],
 		"attackSound": "nuke"
 	},
 
@@ -2625,7 +3102,8 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", 
+		"uniques": [
+            "Cannot enter ocean tiles", 
 			"Never appears as a Barbarian unit"
 		],
 		"upgradesTo": "Cog",
@@ -2641,7 +3119,7 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Cog",
 		"promotions": ["Boarding Party I"],
 		"obsoleteTech": "Compass",
@@ -2656,7 +3134,11 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Heals [+15] damage if it kills a unit", "Destroys tile improvements when attacking"],
+		"uniques": [
+            "Cannot enter ocean tiles", 
+            "Heals [+15] damage if it kills a unit", 
+            "Destroys tile improvements when attacking"
+        ],
 		"upgradesTo": "Cog",
 		"promotions": ["Coastal Raider I", "Landing Party"],
 		"obsoleteTech": "Astronomy",
@@ -2696,7 +3178,8 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", 
+		"uniques": [
+            "[+1] Sight", 
 			"May withdraw before melee ([80]%)",
 			"Can see invisible [Water] units"
 		],
@@ -2713,7 +3196,10 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Cannot enter ocean tiles", "Can see invisible [Water] units"],
+		"uniques": [
+            "Cannot enter ocean tiles", 
+            "Can see invisible [Water] units"
+        ],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -2727,8 +3213,9 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Double movement in [Coast]", 
-			//"Never appears as a Barbarian unit", 
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "Double movement in [Coast]", 
 			"Can see invisible [Water] units"
 		],
 		"attackSound": "shipguns"
@@ -2742,7 +3229,8 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
-		"uniques": ["Can see invisible [Water] units", 
+		"uniques": [
+            "Can see invisible [Water] units", 
 			"[60]% chance to intercept air attacks",
 			"May withdraw before melee ([70]%)", 
 			"[+100]% Strength <vs [Submarine] units>"
@@ -2758,10 +3246,11 @@
 		"interceptRange": 1,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[80]% chance to intercept air attacks", 
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[80]% chance to intercept air attacks", 
 			"Can see invisible [Water] units", 
-			"[+100]% Strength <vs [Submarine] units>", 
-			//"Never appears as a Barbarian unit"
+			"[+100]% Strength <vs [Submarine] units>"
 		],
 		"attackSound": "missile"
 	},
@@ -2776,8 +3265,8 @@
 		"cost": 75,
 		"requiredTech": "Optics",
 		"uniques": [
-			"Cannot enter ocean tiles", 
-			//"Never appears as a Barbarian unit"
+            //"Never appears as a Barbarian unit",
+			"Cannot enter ocean tiles"
 		],
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Astronomy",
@@ -2809,7 +3298,10 @@
 		"range": 1,
 		"cost": 75,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
+		"uniques": [
+            "Cannot enter ocean tiles", 
+            "[+50]% Strength <vs [Water] units>"
+        ],
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"
@@ -2824,9 +3316,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": [
-			"Cannot enter ocean tiles"
-		],
+		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
 	},
 	{
@@ -2854,8 +3344,8 @@
 		"upgradesTo": "Light Cruiser",
 		"obsoleteTech": "Combustion",
 		"uniques": [
-			"Double movement in [Coast]", 
-			//"Never appears as a Barbarian unit"
+            //"Never appears as a Barbarian unit",
+			"Double movement in [Coast]"
 		],
 		"attackSound": "shipguns"
 	},
@@ -2867,9 +3357,7 @@
 		"rangedStrength": 55,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": [
-			//"Never appears as a Barbarian unit"
-		],
+		//"uniques": ["Never appears as a Barbarian unit"],
 		"upgradesTo": "Missile Cruiser",
 		"attackSound": "shipguns"
 	},
@@ -2883,10 +3371,11 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[80]% chance to intercept air attacks", 
+		"uniques": [
+            //"Never appears as a Barbarian unit",
+            "[80]% chance to intercept air attacks", 
 			"Can see invisible [Water] units",
-			"Can carry [3] [Ballistic] units", 
-			//"Never appears as a Barbarian unit"
+			"Can carry [3] [Ballistic] units"
 		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
@@ -2903,8 +3392,12 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can see invisible [Melee Water] units",
-			"Can carry [3] [Ballistic] units","Never appears as a Barbarian unit"],
+		"uniques": [
+            "[100]% chance to intercept air attacks", 
+            "Can see invisible [Submarine] units", 
+            "Can see invisible [Melee Water] units",
+			"Can carry [3] [Ballistic] units"
+        ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -2955,7 +3448,10 @@
 		"rangedStrength": 30,
 		"cost": 210,
 		"requiredResource": "Iron",
-		"uniques": ["Never appears as a Barbarian unit", "Double movement in [Coast]", "Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence"],
+		"uniques": [
+            "Double movement in [Coast]", 
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence"
+        ],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Monitor",
@@ -2972,7 +3468,10 @@
 		"rangedStrength": 35,
 		"cost": 210,
 		"requiredResource": "Iron",
-		"uniques": ["[+1] Sight","[+50]% Strength <vs cities>"],
+		"uniques": [
+            "[+1] Sight",
+            "[+50]% Strength <vs cities>"
+        ],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Monitor",
@@ -2993,8 +3492,8 @@
 		"obsoleteTech": "Combustion",
 		"promotions": ["Indirect Fire"],
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"Double movement in [Coast]", 
-			//"Never appears as a Barbarian unit",
 			"[+50]% Strength <vs cities>"
 		],
 		"attackSound": "shipguns"
@@ -3030,7 +3529,7 @@
 		"cost": 400,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
+		"uniques": ["[+50]% Strength <vs cities>"],
 		"promotions": ["Indirect Fire","Targeting I"],
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Arsenal Ship",
@@ -3047,8 +3546,8 @@
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Aluminum",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"Can carry [6] [Ballistic] units", 
-			//"Never appears as a Barbarian unit", 
 			"[+50]% Strength <vs cities>"
 		],
 		"promotions": ["Indirect Fire"],
@@ -3066,7 +3565,11 @@
 		"upgradesTo": "Commerce Raider",
 		"obsoleteTech": "Steam Power",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
+		"uniques": [
+            "May capture killed [Water] units", 
+            "Invisible to non-adjacent units", 
+            "Can see invisible [Melee Water] units"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -3081,7 +3584,11 @@
 		"upgradesTo": "Commerce Raider",
 		"obsoleteTech": "Steam Power",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
+		"uniques": [
+            "May capture killed [Water] units", 
+            "Invisible to non-adjacent units", 
+            "Can see invisible [Melee Water] units"
+        ],
 		"attackSound": "cannon"
 	},
 	{
@@ -3094,7 +3601,11 @@
 		"upgradesTo": "Submarine",
 		"obsoleteTech": "Refrigeration",
 		"promotions": ["Coastal Raider I", "Supply"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
+		"uniques": [
+            "May capture killed [Water] units", 
+            "Invisible to non-adjacent units",
+            "Can see invisible [Melee Water] units"
+        ],
 		"attackSound": "shipguns"
 	},
 	{
@@ -3102,11 +3613,17 @@
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 7,
-		"strength": 50,
+		"strength": 55,
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units", "Heals [+15] damage if it kills a unit","Destroys tile improvements when attacking"],
+		"uniques": [
+            "May capture killed [Water] units", 
+            "Invisible to non-adjacent units", 
+            "Can see invisible [Melee Water] units", 
+            "Heals [+15] damage if it kills a unit",
+            "Destroys tile improvements when attacking"
+        ],
 		"attackSound": "shipguns"
 	},
 
@@ -3121,9 +3638,9 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"[+75]% Strength <when attacking>", 
-			"Can only attack [Water] tiles", 
-			//"Never appears as a Barbarian unit"
+			"Can only attack [Water] tiles"
 		],
 		"attackSound": "torpedo"
 	},
@@ -3137,11 +3654,11 @@
 		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"uniques": [
+            //"Never appears as a Barbarian unit",
 			"[+75]% Strength <when attacking>", 
 			"Can only attack [Water] tiles", 
 			"[+1] Sight", 
-			"Can carry [2] [Ballistic] units", 
-			//"Never appears as a Barbarian unit"
+			"Can carry [2] [Ballistic] units"
 		],
 		"attackSound": "torpedo"
 	},
@@ -3155,7 +3672,11 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"upgradesTo": "Nuclear Carrier",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit"]
+		"uniques": [
+            "Cannot attack", 
+            "Can carry [2] [Aircraft] units", 
+            "Never appears as a Barbarian unit"
+        ]
 	},
 	{
 		"name": "Nuclear Carrier",
@@ -3166,6 +3687,12 @@
 		"cost": 500,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
+		"uniques": [
+            "Cannot attack", 
+            "Can carry [3] [Aircraft] units", 
+            "Can carry [2] [Ballistic] units", 
+            "[70]% chance to intercept air attacks", 
+            "Never appears as a Barbarian unit"
+        ]
 	}
 ]
