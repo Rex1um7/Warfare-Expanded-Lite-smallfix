@@ -1,5 +1,5 @@
 [
-    {
+    /*{
         "name": "Cultured",
         "friendBonusUniques": [
             "[+3 Culture] <before the [Medieval era]>",
@@ -51,5 +51,5 @@
             "[+26 Faith] <starting from the [Industrial era]>"
         ],
         "color": [255, 255, 255]
-    }
+    }*/
 ]
