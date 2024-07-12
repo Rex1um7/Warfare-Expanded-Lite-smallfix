@@ -1330,6 +1330,7 @@
 		"upgradesTo": "Volunteers",
 		"obsoleteTech": "Industrialization",
 		"uniques": [
+			"Never appears as a Barbarian unit",
             "Ignores terrain cost", 
             "May upgrade to [Musketman] through ruins-like effects", 
             "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", 
