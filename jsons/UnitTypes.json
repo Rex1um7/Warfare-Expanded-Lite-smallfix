@@ -35,7 +35,13 @@
     },
     {
         "name": "Militia",
-	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
+	"uniques": [
+		"[+50]% to Flank Attack bonuses", 
+		"[+50]% Strength when stacked with [Civilian]",
+		"Can build [Castle] improvements on tiles",
+                "Can build [Trench] improvements on tiles",
+                "Can build [Repair] improvements on tiles <hidden from users"
+	],
         "movementType": "Land"
     },
 
