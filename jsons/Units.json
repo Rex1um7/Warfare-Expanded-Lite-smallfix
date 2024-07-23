@@ -3233,7 +3233,7 @@
 		"uniques": [
             "Can see invisible [Water] units", 
 			"[60]% chance to intercept air attacks",
-			"May withdraw before melee ([70]%)", 
+			"Withdraws before melee combat <with [70]% chance>", 
 			"[+100]% Strength <vs [Submarine] units>"
 		],
 		"attackSound": "shipguns"
