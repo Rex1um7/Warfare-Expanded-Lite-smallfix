@@ -1192,9 +1192,8 @@
 		"strength": 13,
 		"cost": 70,
 		"uniques": [
-            //"Never appears as a Barbarian unit"
             "Can see over obstacles", 
-            "Normal vision when embarked"
+            "[+1] Sight <when [Embarked]>"
         ],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
@@ -1211,9 +1210,8 @@
 		"range": 1,
 		"cost": 185,
 		"uniques": [
-            "Never appears as a Barbarian unit",
             "Can see over obstacles", 
-            "Normal vision when embarked", 
+            "[+1] Sight <when [Embarked]>",
             "Can move after attacking"
         ],
 		"promotions": ["Ignore terrain cost"],
@@ -1231,9 +1229,8 @@
 		"range": 1,
 		"cost": 300,
 		"uniques": [
-            //"Never appears as a Barbarian unit",
             "Can see over obstacles", 
-            "Normal vision when embarked", 
+            "[+1] Sight <when [Embarked]>",
             "May Paradrop up to [7] tiles from inside friendly territory", 
             "Can move after attacking"
         ],
@@ -1441,7 +1438,10 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": [
+			"[+1] Sight <when [Embarked]>", 
+			"Defense bonus when embarked"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1452,7 +1452,10 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": [
+			"[+1] Sight <when [Embarked]>",
+			"Defense bonus when embarked"
+		],
 		"attackSound": "machinegun"
 	},
 
@@ -2882,7 +2885,13 @@
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[65]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","This Unit gains the [Air Repair] promotion <during a Golden Age>"],
+		"uniques": [
+			"[65]% chance to intercept air attacks", 
+			"[+100]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [Atomic Bomber] units>", 
+			"[+150]% Strength <vs [Helicopter] units>",
+			"[This Unit] gains the [Air Repair] promotion <during a Golden Age>"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -3181,7 +3190,7 @@
 		"obsoleteTech": "Combustion",
 		"uniques": [
             "[+1] Sight", 
-			"May withdraw before melee ([80]%)",
+			"Withdraws before melee combat <with [80]% chance>",
 			"Can see invisible [Water] units"
 		],
 		"hurryCostModifier": 30,
