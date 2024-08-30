@@ -1851,7 +1851,6 @@
             "[70]% chance to intercept air attacks", 
             "No defensive terrain bonus", 
             "Never appears as a Barbarian unit", 
-            "Only intercepts missiles", 
             "Consumes [2] [Aluminum]"
         ],
 		"attackSound": "missile"
@@ -2338,7 +2337,7 @@
 		"cost": 350,
 		"requiredTech": "Metallurgy",
 		"uniques": [
-            "unbuildable",
+            "Unbuildable",
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
