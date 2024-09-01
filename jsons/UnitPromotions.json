@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": [
-			"[This unit] heals [50] HP", 
+			"[This Unit] heals [50] HP", 
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
@@ -59,7 +59,7 @@
 	},
 	{
 		"name": "Special Promotion",
-		"uniques": ["[This unit] upgrades for free including special upgrades"],
+		"uniques": ["[This Unit] upgrades for free including special upgrades"],
 		"prerequisites": ["Battlefield Survival II", "Defender II"],
 		"unitTypes": ["Militia"]
 	},
