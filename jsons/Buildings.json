@@ -7,7 +7,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <if [Colosseum] is constructed in all [non-[Puppeted] cities]>", 
+			"Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Horseback Riding"
