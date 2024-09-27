@@ -2363,7 +2363,8 @@
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Consumes [1] [Oil]", 
-			"Consumes [1] [Iron]"
+			"Consumes [1] [Iron]",
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -2381,7 +2382,7 @@
 			"Can move after attacking", 
 			"Consumes [1] [Oil]", 
 			"Consumes [1] [Iron]", 
-			"[+15]% Strength <vs [Infantry] units> <when attacking>"
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -2400,7 +2401,7 @@
             "No defensive terrain bonus", 
             "Consumes [1] [Oil]", 
             "Consumes [1] [Iron]", 
-            "[+15]% Strength <vs [Infantry] units> <when attacking>"
+            "[+15]% Strength <vs [Land] units> <when attacking>"
         ],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
@@ -2421,7 +2422,7 @@
 			"Can move immediately once bought", 
 			"Consumes [1] [Oil]", 
 			"Consumes [1] [Iron]", 
-			"[+15]% Strength <vs [Infantry] units> <when attacking>"
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -2439,7 +2440,7 @@
 			"No defensive terrain bonus", 
 			"Consumes [1] [Oil]", 
 			"Consumes [1] [Aluminum]", 
-			"[+15]% Strength <vs [Infantry] units> <when attacking>"
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -2456,7 +2457,7 @@
 			"No defensive terrain bonus", 
 			"Consumes [1] [Uranium]", 
 			"Consumes [1] [Aluminum]", 
-			"[+15]% Strength <vs [Infantry] units> <when attacking>"
+			"[+15]% Strength <vs [Land] units> <when attacking>"
 		],
 		"attackSound": "gdrAttack"
 	},
