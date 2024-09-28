@@ -1180,7 +1180,6 @@
             //"Never appears as a Barbarian unit",
             "May upgrade to [Spearman] through ruins-like effects"
         ],
-		"promotions": ["Ignore terrain cost"],
 		"upgradesTo": "Explorer",
 		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
@@ -1192,10 +1191,9 @@
 		"strength": 13,
 		"cost": 70,
 		"uniques": [
-            "Can see over obstacles", 
-            "[+1] Sight <when [Embarked]>"
-        ],
-		"promotions": ["Ignore terrain cost"],
+           		"Can see over obstacles", 
+            		"[+1] Sight <when [Embarked]>"
+        	],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
 		"obsoleteTech": "Rifling",
@@ -1214,7 +1212,6 @@
             "[+1] Sight <when [Embarked]>",
             "Can move after attacking"
         ],
-		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
 		"obsoleteTech": "Radar",
@@ -1234,7 +1231,6 @@
             "May Paradrop up to [7] tiles from inside friendly territory", 
             "Can move after attacking"
         ],
-		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
 	},
