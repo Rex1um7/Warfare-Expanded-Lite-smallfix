@@ -215,6 +215,9 @@
     {
         "name": "Scout",
         "movementType": "Land"
+	    "uniques":[
+			"Ignores terrain cost",
+		]
     },
     {
         "name": "Mounted",
