@@ -43,8 +43,8 @@
                 "Can build [Repair] improvements on tiles",
 		"Can build [Remove Forest] improvements on tiles",
 		"Can build [Remove Jungle] improvements on tiles",
-		"[This Unit] gains [2] XP <upon building a [Remove Forest] improvements",
-		"[This Unit] gains [2] XP <upon building a [Remove Jungle] improvements"
+		"[This Unit] gains [2] XP <upon building a [Remove Forest] improvements>",
+		"[This Unit] gains [2] XP <upon building a [Remove Jungle] improvements>"
 	],
         "movementType": "Land"
     },
