@@ -42,7 +42,7 @@
                 "Can build [Trench] improvements on tiles",
                 "Can build [Repair] improvements on tiles",
 		"Can build [Remove Forest] improvements on tiles",
-		"Can build [Remove Jungle] improvement on tiles"
+		"Can build [Remove Jungle] improvements on tiles"
 	],
         "movementType": "Land"
     },
