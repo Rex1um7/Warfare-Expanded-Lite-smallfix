@@ -40,7 +40,9 @@
 		"[+50]% Strength when stacked with [Civilian]",
 		"Can build [Fort] improvements on tiles",
                 "Can build [Trench] improvements on tiles",
-                "Can build [Repair] improvements on tiles <hidden from users>"
+                "Can build [Repair] improvements on tiles",
+		"Can build [Remove Forest] improvements on tiles",
+		"Can build [Remove Jungle] improvement on tiles"
 	],
         "movementType": "Land"
     },
