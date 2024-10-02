@@ -1572,7 +1572,7 @@
 		"upgradesTo": "Modern Commando",
 		"uniques": [
             "[+100]% Strength <vs cities>", 
-            "All tiles cost 1 movement", 
+            "Ignores terrain cost", 
             "Never appears as a Barbarian unit"
         ],
 		"attackSound": "shot"
@@ -1586,7 +1586,7 @@
 		"requiredTech": "Telecommunications",
 		"uniques": [
             "[+100]% Strength <vs cities>", 
-            "All tiles cost 1 movement", 
+            "Ignores terrain cost", 
             "May Paradrop up to [7] tiles from inside friendly territory", 
             "Never appears as a Barbarian unit"
         ],
