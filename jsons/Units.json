@@ -1605,12 +1605,13 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-            "[+200]% Strength <vs cities> <when attacking>", 
-            "No defensive terrain bonus",
+            		"[+200]% Strength <vs cities> <when attacking>", 
+            		"No defensive terrain bonus",
 			"Must set up to ranged attack", 
-            "Never appears as a Barbarian unit"
+            		"Never appears as a Barbarian unit"
         ],
 		"hurryCostModifier": 20,
+		"promotions": ["Indirect Fire"],
 		"attackSound": "throw"
 	},
 	{
@@ -1626,11 +1627,12 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-            "[+200]% Strength <vs cities> <when attacking>", 
-            "No defensive terrain bonus",
+            		"[+200]% Strength <vs cities> <when attacking>", 
+            		"No defensive terrain bonus",
 			"Must set up to ranged attack"
         ],
 		"hurryCostModifier": 20,
+		"promotions": ["Indirect Fire"],
 		"attackSound": "throw"
 	},
 	{
@@ -1644,11 +1646,12 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Bombard Cannon",
 		"uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+			//"Never appeared as a Barbarian Unit",
+            		"[+200]% Strength <vs cities> <when attacking>",
+            		"No defensive terrain bonus",
+            		"Must set up to ranged attack",
         ],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "throw"
 	},
 	{
@@ -1667,6 +1670,7 @@
             "No defensive terrain bonus",
             "Must set up to ranged attack"
         ],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "throw"
 	},
 	{
@@ -1680,11 +1684,12 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+            	"[+200]% Strength <vs cities> <when attacking>",
+            	"No defensive terrain bonus",
+            	"Must set up to ranged attack",
+            	//"Never appears as a Barbarian unit"
         ],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1700,11 +1705,13 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+            		"[+200]% Strength <vs cities> <when attacking>",
+            		"No defensive terrain bonus",
+            		"Must set up to ranged attack"
+            
         ],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1725,6 +1732,7 @@
             "[+33]% Strength <vs [Melee] units>", 
             "Can move after attacking"
         ],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "cannon"
 	},
 	{
