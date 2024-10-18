@@ -3154,7 +3154,10 @@
             "Destroys tile improvements when attacking"
         ],
 		"upgradesTo": "Cog",
-		"promotions": ["Coastal Raider I", "Landing Party"],
+		"promotions": [
+			"Coastal Raider I", 
+			//"Landing Party"
+		],
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
