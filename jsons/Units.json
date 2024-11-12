@@ -3149,14 +3149,14 @@
 		"cost": 45,
 		"requiredTech": "Sailing",
 		"uniques": [
-            "Cannot enter ocean tiles", 
-            "Heals [+15] damage if it kills a unit", 
-            "Destroys tile improvements when attacking"
+           		 "Cannot enter ocean tiles", 
+            		"Heals [+15] damage if it kills a unit", 
+            		"Destroys tile improvements when attacking",
+			"Eliminates combat penalty for attacking across a coast",
         ],
 		"upgradesTo": "Cog",
 		"promotions": [
 			"Coastal Raider I", 
-			//"Landing Party"
 		],
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
