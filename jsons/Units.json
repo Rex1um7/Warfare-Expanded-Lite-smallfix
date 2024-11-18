@@ -1420,7 +1420,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Defense bonus when embarked"],
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"],
 		"upgradesTo": "Marine",
 		"attackSound": "shot"
 	},
@@ -1436,7 +1436,7 @@
 		"promotions": ["Amphibious"],
 		"uniques": [
 			"[+1] Sight <when [Embarked]>", 
-			"Defense bonus when embarked"
+			"[+100]% Strength <when defending> <when [Embarked]>"
 		],
 		"attackSound": "shot"
 	},
@@ -1450,7 +1450,7 @@
 		"promotions": ["Amphibious"],
 		"uniques": [
 			"[+1] Sight <when [Embarked]>",
-			"Defense bonus when embarked"
+			"[+100]% Strength <when defending> <when [Embarked]>"
 		],
 		"attackSound": "machinegun"
 	},
