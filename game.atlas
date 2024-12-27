@@ -3358,6 +3358,13 @@ UnitIcons/Dirty Nuke Truck
   orig: 250, 250
   offset: 0, 0
   index: -1
+UnitIcons/Great War Cavalry
+  rotate: false
+  xy: 520, 994
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
 
 game2(new).png
 UnitIcons/Land Dreadnought
@@ -3426,6 +3433,13 @@ TileSets/FantasyHex/Units/Barbarian Warlord
 TileSets/FantasyHex/Units/Dirty Nuke Truck
   rotate: false
   xy: 1696, 825
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great War Cavalry
+  rotate: false
+  xy: 1392, 601
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
