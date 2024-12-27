@@ -53,7 +53,7 @@ ResourceIcons/Secret Project
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Missionary Mission
+BuildingIcons/Foreign Mission
   rotate: false
   xy: 262, 246
   size: 250, 250
@@ -3305,5 +3305,128 @@ TileSets/FantasyHex/Units/Zeppelin
   xy: 564, 5
   size: 32, 31
   orig: 32, 31
+  offset: 0, 0
+  index: -1
+
+game(new).png
+UnitIcons/Land Cruiser
+  rotate: false
+  xy: 778, 736
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitIcons/Apoclaypse Missile
+  rotate: false
+  xy: 1710, 338
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Stealth Tank
+  rotate: false
+  xy: 1760, 1610
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Carrier Submarine
+  rotate: false
+  xy: 4, 220
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitIcons/HeliCarrier
+  rotate: false
+  xy: 520, 478
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitIcons/Barbarian Warlord
+  rotate: false
+  xy: 4, 478
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+UnitIcons/Dirty Nuke Truck
+  rotate: false
+  xy: 262, 1510
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+
+game2(new).png
+UnitIcons/Land Dreadnought
+  rotate: false
+  xy: 544, 797
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nuke Cannon
+  rotate: false
+  xy: 220, 41
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Land Dreadnought
+  rotate: false
+  xy: 1728, 789
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nuke Cannon
+  rotate: false
+  xy: 1988, 716
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Land Cruiser
+  rotate: false
+  xy: 1688, 789
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Stealth Tank
+  rotate: false
+  xy: 1508, 457
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Carrier Submarine
+  rotate: false
+  xy: 1496, 816
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/HeliCarrier
+  rotate: false
+  xy: 1472, 601
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Barbarian Warlord
+  rotate: false
+  xy: 1352, 598
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dirty Nuke Truck
+  rotate: false
+  xy: 1696, 825
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
