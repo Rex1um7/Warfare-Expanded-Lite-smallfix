@@ -196,7 +196,12 @@
         "uniques": ["Cannot be intercepted"]
     },
 
-
+    //helicarrier
+    {
+        "name": "HeliCarrier",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
 
     //vanilla items
 
