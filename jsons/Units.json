@@ -17,9 +17,10 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-            "Founds a new city", 
+			"Founds a new city", 
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+			"Requires at least [2] population", 
+			"[+1] Movement <after discovering [Combustion]>"
 		],
 		"hurryCostModifier": 20
 	},
@@ -27,7 +28,7 @@
 		"name": "Medic",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["All adjacent units heal [+10] HP when healing"],
+		"uniques": ["All adjacent units heal [+10] HP when healing", "Uncapturable"],
 		"cost": 275,
 		"requiredTech": "Biology",
 		"upgradesTo": "Supply Truck",
@@ -38,10 +39,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"uniques": [
-            "All adjacent units heal [+5] HP when healing",
-			"Can be purchased with [Faith] [in all cities]"
-		],
+		"uniques": ["All adjacent units heal [+5] HP when healing","Can be purchased with [Faith] [in all cities]", "Uncapturable"],
 		"cost": 80,
 		"upgradesTo": "Medic",
 		"obsoleteTech": "Biology"
@@ -50,10 +48,7 @@
 		"name": "Supply Truck",
 		"unitType": "Civilian",
 		"movement": 4,
-		"uniques": [
-            "All adjacent units heal [+10] HP when healing", 
-			"Transfer Movement to [Military]"
-		],
+		"uniques": ["All adjacent units heal [+10] HP when healing", "Transfer Movement to [Military]", "Uncapturable"],
 		"cost": 450,
 		"requiredTech": "Pharmaceuticals"
 	},
@@ -63,13 +58,7 @@
 		"movement": 2,
 		"cost": 400,
 		"requiredTech": "Military Science",
-		"uniques": [
-            "[+10]% Strength bonus for [Military] units within [1] tiles", 
-			"Uncapturable", 
-			"Only available <if [Military Academy] is constructed>", 
-			"[+1] Movement <after discovering [Combined Arms]>", 
-			"[+1] Movement <after discovering [Mobile Tactics]>"
-		]
+		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Military Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"]
 	},
 	{
 		"name": "Airfield Ground Unit",
@@ -81,10 +70,11 @@
 		"requiredResource": "Oil",
 		"requiredTech": "Radar",
 		"uniques": [
-            "[60]% chance to intercept air attacks",
+			"[60]% chance to intercept air attacks",
 			"Can carry [0] [Aircraft] units", 
 			"Can build [Airfield] improvements on tiles", 
-			"Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"
+			"Can carry [2] extra [Aircraft] units <in [Airfield] tiles> <hidden from users>", 
+			"Comment [Allows an airfield to be loaded with aircrafts when standing on one]"
 		],
 		"civilopediaText": [
 			{
@@ -96,30 +86,26 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Can be earned through combat",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-	        "Great Person - [War]", 
-            "Unbuildable", 
-            "Uncapturable", 
-            "[+1] Movement <after discovering [Combined Arms]>", 
-            "[+1] Movement <after discovering [Mobile Tactics]>"
-        ],
+		        "Empire enters a [8]-turn Golden Age <by consuming this unit>","Can be earned through combat",
+		        "[+15]% Strength bonus for [Military] units within [2] tiles",
+		        "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable", 
+			"[+1] Movement <after discovering [Combined Arms]>", 
+			"[+1] Movement <after discovering [Mobile Tactics]>"
+		],
 		"movement": 2
 	},
-		{
+	{
 		"name": "Darughachi",
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great Merchant",
 		"uniques": [
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-            "[2] free [Mongol Raider] units appear <by consuming this unit>",
-			"Great Person - [Gold]", 
-            //"Uncapturable",
-            "Unbuildable"
-        ],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit> <after discovering [Guilds]>",
+			"[2] free [Mongol Raider] units appear <by consuming this unit>",
+			/*"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <after discovering [Currency]>",*/
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"
+		],
 		"movement": 2
 	},
 	{
@@ -134,15 +120,7 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Chivalry",
 		"hurryCostModifier": 40,
-		"uniques": [
-            "Can move after attacking",
-            "No defensive terrain bonus", 
-            "Ignores Zone of Control",
-            "No movement cost to pillage",
-            "Earn [10]% of the damage done to [All] units as [Gold]",
-            "Limited to [4] per Civilization",
-            "Only available <in cities with a [Palace]>"
-        ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [10]% of the damage done to [All] units as [Gold]","Limited to [4] per Civilization","Only available <in cities with a [Palace]>"],
 		"attackSound": "horse"
 	},
 	{
@@ -157,14 +135,7 @@
 		"upgradesTo": "Dragoon",
 		"requiredBuilding": "Palace",
 		"hurryCostModifier": 40,
-		"uniques": [
-            "Can move after attacking",
-            "No defensive terrain bonus", 
-            "Ignores Zone of Control",
-            "No movement cost to pillage",
-            "Earn [20]% of the damage done to [All] units as [Gold]",
-            "Limited to [4] per Civilization","Only available <in cities with a [Palace]>"
-        ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [20]% of the damage done to [All] units as [Gold]","Limited to [4] per Civilization","Only available <in cities with a [Palace]>"],
 		"attackSound": "horse"
 	},
 
@@ -247,7 +218,7 @@
 		"replaces": "Swordsman",
 		"movement": 3,
 		"strength": 13,
-		"cost": 40,
+		"cost": 50,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
@@ -901,7 +872,7 @@
 		"range": 1,
 		"cost": 185,
 		"requiredTech": "Gunpowder",
-		"upgradesTo": "Gatling Gun",
+		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
@@ -925,8 +896,8 @@
 		"uniqueTo": "Siam",
 		"range": 1,
 		"movement": 2,
-		"strength": 32,
-		"rangedStrength": 32,
+		"strength": 35,
+		"rangedStrength": 35,
 		"cost": 225,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
