@@ -2263,7 +2263,7 @@
 		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"uniques": [
             //"Never appears as a Barbarian unit",
             "Can move after attacking",
@@ -2293,7 +2293,7 @@
             "Consumes [1] [Iron]"
         ],
 		"promotions": ["[Hakkapeliitta] ability"],
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"obsoleteTech": "Military Science",
 		"attackSound": "horse"
 	},
@@ -2314,7 +2314,7 @@
             "Consumes [1] [Iron]",
             "Can transform to [Qing Banner Cavalry (Ranged)]"
         ],
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
 	},
@@ -2337,7 +2337,7 @@
             "Consumes [1] [Iron]",
             "Can transform to [Qing Banner Cavalry]"
         ],
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"obsoleteTech": "Combustion",
 		"attackSound": "arrow"
 	},
