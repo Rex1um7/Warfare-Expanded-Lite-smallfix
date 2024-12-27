@@ -3141,11 +3141,11 @@
            		 "Cannot enter ocean tiles", 
             		"Heals [+15] damage if it kills a unit", 
             		"Destroys tile improvements when attacking",
-			"Eliminates combat penalty for attacking across a coast",
         ],
 		"upgradesTo": "Cog",
 		"promotions": [
 			"Coastal Raider I", 
+			"[Longship] ability",
 		],
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
