@@ -20,7 +20,9 @@
 			"Founds a new city", 
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population", 
-			"[+1] Movement <after discovering [Combustion]>"
+			"[-1] population [in this city] <in cities with at least [4] [Population]>",
+			"[+1] Movement <after discovering [Combustion]>",
+			"[+15]% growth [in this city] <for [3] turns>"
 		],
 		"hurryCostModifier": 20
 	},
