@@ -32,7 +32,12 @@
 		"uniques": ["Invisible to non-adjacent units"],
 		"unitTypes": ["Scout"],
 	},
-
+	{
+		"name": "Shadow Strike",
+		"prerequisites": ["Scouting III", "Survivalism III"],
+		"uniques": ["[+100]% Strength <when attacking>"],
+		"unitTypes": ["Scout"],
+	}
 
 	//Militia
 	{
