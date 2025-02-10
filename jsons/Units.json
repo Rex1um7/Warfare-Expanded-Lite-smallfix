@@ -569,6 +569,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Heavy Infantry",
+		"upgradesTo": "Pikeman",
 		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[-15]% Strength <vs [Infantry] units>"],
 		"attackSound": "metalhit"
 	},
