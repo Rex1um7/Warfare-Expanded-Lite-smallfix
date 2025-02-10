@@ -1491,7 +1491,7 @@
 		"strength": 10,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Physics",
 		"upgradesTo": "Medieval Siege Tower",
 		"uniques": [
             "[+300]% Strength <vs cities> <when attacking>", 
