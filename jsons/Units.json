@@ -3524,7 +3524,7 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Battleship",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Electronics",
 		"promotions": ["Indirect Fire"],
 		"uniques": [
             //"Never appears as a Barbarian unit",
