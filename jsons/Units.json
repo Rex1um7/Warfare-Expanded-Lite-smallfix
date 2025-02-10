@@ -568,12 +568,11 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		//"upgradesTo": "Heavy Infantry",
+		"upgradesTo": "Pikeman",
 		"uniques": [
 			"[+35]% Strength <vs [Mounted] units>", 
 			"[-15]% Strength <vs [Infantry] units>",
 			"Can upgrade to [Heavy Infantry]",
-			"Can upgrade to [Pikeman]",
 		],
 		"attackSound": "metalhit"
 	},
@@ -587,12 +586,11 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		//"upgradesTo": "Heavy Infantry",
+		"upgradesTo": "Pikeman",
 		"uniques": [
             "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", 
             "[+15]% Strength <vs [Mounted] units>",
 			"Can upgrade to [Heavy Infantry]",
-			"Can upgrade to [Pikeman]",
         ],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
@@ -622,11 +620,11 @@
 		"cost": 70,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
 		"uniques": [
 			//"Never appears as a Barbarian unit", 
                           "[+35]% Strength <vs [Mounted] units>", 
                           "[-15]% Strength <vs [Infantry] units>",
-			  "Can upgrade to [Pikeman]",
 		],
 		"attackSound": "metalhit"
 	},
@@ -640,9 +638,9 @@
 		"cost": 70,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
 		"uniques": [
 			"[+35]% Strength <vs [Mounted] units>",
-			"Can upgrade to [Pikeman]",
 		],
 		"attackSound": "metalhit"
 	},
@@ -659,7 +657,6 @@
 		"upgradesTo": "Pikeman",
 		"uniques": [
 			"[+35]% Strength <vs [Mounted] units>",
-		        "Can upgrade to [Pikeman]",
 		],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
