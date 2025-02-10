@@ -568,9 +568,12 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Heavy Infantry",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": [
+			"[+35]% Strength <vs [Mounted] units>", 
+			"[-15]% Strength <vs [Infantry] units>",
+			"Can upgrade to [Heavy Infantry]",
+			"Can upgrade to [Pikeman]",
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -586,7 +589,9 @@
 		"upgradesTo": "Heavy Infantry",
 		"uniques": [
             "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", 
-            "[+15]% Strength <vs [Mounted] units>"
+            "[+15]% Strength <vs [Mounted] units>",
+			"Can upgrade to [Heavy Infantry]",
+			"Can upgrade to [Pikeman]",
         ],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
