@@ -22,7 +22,6 @@
 			"Requires at least [2] population", 
 			"[-1] population [in this city] <in cities with at least [4] [Population]>",
 			"[+1] Movement <after discovering [Combustion]>",
-			"[+10]% growth [in this city] <for [3] turns>",
 		],
 		"hurryCostModifier": 20
 	},
