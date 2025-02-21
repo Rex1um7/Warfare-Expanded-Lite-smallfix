@@ -1,7 +1,7 @@
 [
 
 	//Civilians
-	/*{
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -10,7 +10,7 @@
 			"[+1] Movement <after discovering [Combustion]>"
 		],
 		"cost": 70
-	},*/
+	},
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
