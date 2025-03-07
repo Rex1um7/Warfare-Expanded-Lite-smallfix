@@ -3809,7 +3809,19 @@
 		"strength": 40,
 		"cost": 325,
 		"requiredTech": "Electronics",
-		"uniques": ["Submarine", "Consumes [2] [Oil]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [1] [Aircraft] units", "Never appears as a Barbarian unit", "Will not be displayed in Civilopedia"],
+		"uniques": [
+			"Submarine", 
+			"Consumes [2] [Oil]", 
+			"Consumes [1] [Secret Project]" ,
+			"Double movement in [Ocean]", 
+			"Cannot attack", 
+			"Can carry [1] [Aircraft] units", 
+			"Never appears as a Barbarian unit", 
+			"Will not be displayed in Civilopedia", 
+			"Can enter ice tiles", 
+			"Invisible to non-adjacent units", 
+			"Can see invisible [Submarine] units"
+		],
 	},
 	{
 		"name": "HeliCarrier",
@@ -3832,7 +3844,7 @@
 		"cost": 150,
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Limited to [5] per Civilization","Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs cities>","[+10]% Strength <when attacking>", "[+20]% Strength bonus for [Military] units within [3] tiles", "Uncapturable", "Ignores Zone of Control","No movement cost to pillage"],
+		"uniques": ["Limited to [6] per Civilization","Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs cities>","[+10]% Strength <when attacking>", "[+20]% Strength bonus for [Military] units within [3] tiles", "Uncapturable", "Ignores Zone of Control","No movement cost to pillage"],
 		"attackSound": "horse"
 	},
 	{
@@ -3845,7 +3857,7 @@
 		"range": 1,
 		"cost": 400,
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["Limited to [2] per Civilization","No defensive terrain bonus", "Nuclear weapon of Strength [1]", "Blast radius [1]", "Consumes [1] [Uranium]", "Self-destructs when attacking"],
+		"uniques": ["Limited to [6] per Civilization","No defensive terrain bonus", "Nuclear weapon of Strength [1]", "Blast radius [1]", "Consumes [1] [Uranium]", "Self-destructs when attacking"],
 		"attackSound": "artillery"
 	},
 ]
