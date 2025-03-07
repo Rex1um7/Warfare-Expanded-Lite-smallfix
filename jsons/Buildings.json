@@ -98,7 +98,6 @@
 		"isWonder": true,
 		"science": 6,
 		"production": 6,
-		"isNationalWonder": true,
 		"requiredTech": "Computers",
 		"uniques": ["Provides [3] [Secret Project]"]
 	},
