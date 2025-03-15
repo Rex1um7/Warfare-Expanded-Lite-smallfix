@@ -112,7 +112,10 @@
     },
     {
         "name": "Missile Defense",
-	"uniques": ["Cannot intercept [non-[Ballistic]] units", "[+5000]% Strength <vs [Ballistic] units>"],
+	"uniques": [
+		"[+5000]% Strength <vs [Missile] units> <with [65]% chance>",
+                "[+5000]% Strength <vs [Nuke Missile] units> <with [30]% chance>",
+	],
         "movementType": "Land"
     },
 
