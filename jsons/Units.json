@@ -3106,7 +3106,7 @@
 		"uniques": [
             "Destroys tile improvements when attacking", 
 			"Nuclear weapon of Strength [1]", 
-			"Only available <if [Manhattan Project] is constructed>", 
+			//"Only available <if [Manhattan Project] is constructed>", 
 			"Self-destructs when attacking",
 			"Blast radius [1]", 
 			"Damage taken from interception reduced by [10]%"
@@ -3127,7 +3127,7 @@
 		"uniques": [
             "Destroys tile improvements when attacking", 
             "Nuclear weapon of Strength [2]", 
-            "Only available <if [Manhattan Project] is constructed>",
+            //"Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]", 
             "Consumes [2] [Uranium]", 
             "Ballistic"
@@ -3762,7 +3762,15 @@
 		"range": 3,
 		"cost": 400,
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty", "Only available <if [Manhattan Project] is constructed>"],
+		"uniques": [
+			"No defensive terrain bonus", 
+			//"Never appears as a Barbarian unit", 
+			"Nuclear weapon of Strength [1]", 
+			"Blast radius [0]", 
+			"Consumes [1] [Uranium]", 
+			"Rough terrain penalty", 
+			//"Only available <if [Manhattan Project] is constructed>"
+		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -3798,8 +3806,15 @@
 		"range": 12,
 		"cost": 1500,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [4]", "Consumes [3] [Uranium]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+		"uniques": [
+			"Nuclear weapon of Strength [2]", 
+			//"Only available <if [Manhattan Project] is constructed>",
+			"Blast radius [4]", 
+			"Consumes [3] [Uranium]", 
+			"Consumes [1] [Secret Project]", 
+			"Will not be displayed in Civilopedia", 
+			"Only available <with [Secret Project]>"
+		],
 		"attackSound": "nuke"
 	},
 	{
