@@ -79,7 +79,12 @@
     },
     {
         "name": "Siege Nuke",
-	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
+	"uniques": [
+		"[-1] Sight", 
+		"[-50]% XP gained from combat", 
+		//"Only available <if [Manhattan Project] is constructed>", 
+		"[+100]% maintenance costs"
+	],
         "movementType": "Land"
     },
 
