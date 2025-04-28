@@ -3023,7 +3023,12 @@
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "Stealth",
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Naval Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
+		"uniques": ["Damage taken from interception reduced by [50]%",
+ "Cannot be carried by [Naval Carrier] units", 
+"[+4] Sight", "Can see over obstacles", 
+"Consumes [1] [Oil]", 
+"Consumes [1] [Aluminum]"
+],
 		"attackSound": "bombing"
 	},
 
