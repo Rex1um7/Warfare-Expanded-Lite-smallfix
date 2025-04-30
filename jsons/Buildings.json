@@ -117,5 +117,16 @@
 		"requiredTech": "Particle Physics",
 		"cityHealth": 200,
 		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Armored] units [in this city] receive the [Iron Curtain Force Field] promotion"]
-	}
+	},
+	{
+		"name": "Operation Ivy",
+		"cost": 1500,
+		"isWonder": true,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": [
+			"Comment [Enables Apoclaypse Missile]",
+			"Only available <with [Secret Project]>",
+			"Will not be displayed in Civilopedia", 
+			]
+	},
 ]
