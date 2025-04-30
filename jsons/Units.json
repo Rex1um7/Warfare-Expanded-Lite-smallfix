@@ -3111,7 +3111,7 @@
 		"uniques": [
             "Destroys tile improvements when attacking", 
 			"Nuclear weapon of Strength [1]", 
-			//"Only available <if [Manhattan Project] is constructed>", 
+			"Only available <if [Manhattan Project] is constructed>", 
 			"Self-destructs when attacking",
 			"Blast radius [1]", 
 			"Damage taken from interception reduced by [10]%"
@@ -3132,7 +3132,7 @@
 		"uniques": [
             "Destroys tile improvements when attacking", 
             "Nuclear weapon of Strength [2]", 
-            //"Only available <if [Manhattan Project] is constructed>",
+            "Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]", 
             "Consumes [2] [Uranium]", 
             "Ballistic"
@@ -3774,7 +3774,7 @@
 			"Blast radius [0]", 
 			"Consumes [1] [Uranium]", 
 			"Rough terrain penalty", 
-			//"Only available <if [Manhattan Project] is constructed>"
+			"Only available <if [Manhattan Project] is constructed>"
 		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -3813,7 +3813,8 @@
 		"requiredTech": "Nuclear Fusion",
 		"uniques": [
 			"Nuclear weapon of Strength [2]", 
-			//"Only available <if [Manhattan Project] is constructed>",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Only available <if [Operation Ivy] is constructed>",
 			"Blast radius [4]", 
 			"Consumes [3] [Uranium]", 
 			"Consumes [1] [Secret Project]", 
