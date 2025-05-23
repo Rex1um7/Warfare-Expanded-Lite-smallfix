@@ -189,8 +189,17 @@
 		"unitTypes": ["Air Drone"]
 	},
 
-
-
+	// Missile Defense
+	{
+		"name": "SARH",
+		"uniques": ["[+10]% chance to intercept air attacks","Only available <after discovering [Advanced Ballistic]>"],
+		"unitTypes": ["Missile Defense"]
+	},
+	{
+		"name": "Heat Homing",
+		"uniques": ["[+10]% chance to intercept air attacks","Only available <after discovering [Advanced Ballistic]>"],
+		"unitTypes": ["Missile Defense"]
+	},
 
 	// Uniques that should be kept on upgrades
 	{
