@@ -120,8 +120,8 @@
 	"uniques": [
 		"Cannot intercept [non-[Missile]] units",
 		"Cannot intercept [non-[Nuke Missile]] units",
-		"[+5000]% Strength <vs [Missile] units> <with [65]% chance>",
-                "[+5000]% Strength <vs [Nuke Missile] units> <with [30]% chance>",
+		"[+5000]% Strength <vs [Missile] units>",
+                "[+5000]% Strength <vs [Nuke Missile] units> <with [80]% chance>",
 	],
         "movementType": "Land"
     },
