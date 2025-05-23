@@ -193,6 +193,7 @@
 	{
 		"name": "SARH",
 		"uniques": ["[+10]% chance to intercept air attacks","Only available <after discovering [Advanced Ballistic]>"],
+		"prerequisites": ["Heat Homing"],
 		"unitTypes": ["Missile Defense"]
 	},
 	{
