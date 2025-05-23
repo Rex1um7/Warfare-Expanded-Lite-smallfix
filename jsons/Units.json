@@ -1855,13 +1855,13 @@
 		"unitType": "Missile Defense",
 		"movement": 3,
 		"interceptRange": 4,
-		"strength": 65,
-		"cost": 425,
+		"strength": 70,
+		"cost": 450,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
             "[70]% chance to intercept air attacks", 
             "No defensive terrain bonus", 
-            "Never appears as a Barbarian unit", 
+		"Can only attack [Military] units",
             "Consumes [2] [Aluminum]"
         ],
 		"attackSound": "missile"
